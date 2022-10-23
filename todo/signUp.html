@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <div class="brand">
+          <a class="brand-link" href="index.html">Shadow</a>
+        </div>
+      </div>
+      <div class="right-nav">
+        <ul>
+          <li><a href="./signUp.html">Sign up</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="heading">
+      <h1>Create an account</h1>
+    </div>
+    <div class="signup-container">
+      <div class="signup-left">
+        <img src="#" alt="Sign up Image" />
+      </div>
+      <div class="signup-right">
+        <form>
+          <label for="username">Username:</label> <br />
+          <input
+            class="signup-input"
+            type="text"
+            placeholder="Enter a username"
+            required
+          />
+          <br />
+          <label for="email">Enter Email:</label> <br />
+          <input
+            class="signup-input"
+            type="email"
+            placeholder="Enter a valid email"
+            required
+          />
+          <br />
+          <label for="password">Enter password:</label> <br />
+          <input
+            class="signup-input"
+            type="password"
+            placeholder="Enter a strong password"
+            required
+          />
+          <br />
+          <label for="conpassword">Re-Enter password:</label> <br />
+          <input
+            class="signup-input"
+            type="password"
+            placeholder="Re-Enter password"
+            required
+          />
+          <br />
+          <input type="checkbox" required />
+          <label for="checkbox">I have agreed to all terms & conditions.</label>
+          <br />
+          <button class="signup-btn" type="submit">Create account</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav>
+      <div class="brand left">
+        <a href="../index.html"
+          ><img src="../images/Logos/Logo1.png" alt="logo"
+        /></a>
+      </div>
+      <div class="nav-link right">
+        <ul>
+          <li><a href="#">Community</a></li>
+          <li><a href="./signup.html">Sign up</a></li>
+          <li><a href="./login.html">Log in</a></li>
+
+          <!-- isLogged -> true
+                        <li><a href="#"></a>Profile</li>
+                        <li><a href="#"></a>Log out</li> -->
+        </ul>
+      </div>
+    </nav>
+    <div class="heading login-heading">
+      <h1>Log in to your account</h1>
+    </div>
+
+    <div class="login-container">
+      <div class="login-left">
+        <img src="#" alt="Log in Image" />
+      </div>
+      <div class="login-right">
+        <form action="./profile.html">
+          <label for="email">Enter Email:</label> <br />
+          <input
+            class="login-input"
+            type="email"
+            placeholder="Enter your email"
+            required
+          />
+          <br />
+          <label for="password">Enter password:</label> <br />
+          <input
+            class="login-input"
+            type="password"
+            placeholder="Enter your password"
+            required
+          />
+          <br />
+          <button class="btn btn-large" type="submit">Log in</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

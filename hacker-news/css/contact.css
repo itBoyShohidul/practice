@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(61, 5, 3, 0.8);
+  color: #fff;
+}
+
+/* Sign up  */
+
+.signup-input {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  transition: 1s;
+}
+.signup-input:focus {
+  outline: none;
+  background-color: rgb(241, 252, 149);
+}
+
+/* Contact  */
+.contact-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-card {
+  width: 80%;
+  text-align: center;
+}
+.contact-card > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.contact-person-name {
+  font-size: 2rem;
+}
+.social-container {
+  width: 80%;
+  margin: 20px auto;
+}
+.social-container > ul > li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* ================
+  Responsive
+=============== */
+@media screen and (max-width: 600px) {
+  .contact-container {
+    display: block;
+  }
+}

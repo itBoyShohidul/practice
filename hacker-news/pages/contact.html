@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Contact up</title>
+  </head>
+  <body>
+    <nav>
+      <div class="brand left">
+        <a href="../index.html"
+          ><img src="../images/Logos/Logo1.png" alt="logo"
+        /></a>
+      </div>
+      <div class="nav-link right">
+        <ul>
+          <li><a href="./community.html">Community</a></li>
+          <li><a href="./signup.html">Sign up</a></li>
+          <li><a href="./login.html">Log in</a></li>
+
+          <!-- isLogged -> true
+                    <li><a href="#"></a>Profile</li>
+                    <li><a href="#"></a>Log out</li> -->
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h1 class="heading">Contact Me</h1>
+    </section>
+    <section class="contact-container">
+      <div class="left center">
+        <div class="contact-card">
+          <img src="../images/person.png" alt="Person" />
+          <h5 class="contact-person-name">Shohidul Islam</h5>
+          <h6 class="contact-person-role">Web Developer & SEO Expert</h6>
+          <div class="social-container">
+            <ul>
+              <li><button class="btn">Telegram</button></li>
+              <li><button class="btn">Twitter</button></li>
+              <li><button class="btn">Linked in</button></li>
+              <li><button class="btn">Facebook</button></li>
+              <li><button class="btn">Mail</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right center">
+        <form>
+          <label for="username">Your name:</label> <br />
+          <input
+            class="signup-input"
+            type="text"
+            placeholder="Enter your name"
+            required
+          />
+          <br />
+          <label for="email">Enter Email:</label> <br />
+          <input
+            class="signup-input"
+            type="email"
+            placeholder="Enter a valid email"
+            required
+          />
+          <br />
+          <textarea
+            name="message"
+            class="signup-input"
+            id=""
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <br />
+
+          <button class="btn btn-large" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>All copyright reserved to itBoyShohidul &copy; 2022</footer>
+  </body>
+</html>

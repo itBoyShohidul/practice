@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <nav>
+      <div class="brand left">
+        <a href="../index.html"
+          ><img src="../images/Logos/Logo1.png" alt="logo"
+        /></a>
+      </div>
+      <div class="nav-link right">
+        <ul>
+          <li><a href="#">Community</a></li>
+          <li><a href="./signup.html">Sign up</a></li>
+          <li><a href="./login.html">Log in</a></li>
+
+          <!-- isLogged -> true
+                      <li><a href="#"></a>Profile</li>
+                      <li><a href="#"></a>Log out</li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="heading signup-heading">
+      <h1>Create an account</h1>
+    </div>
+    <div class="signup-container">
+      <div class="signup-left">
+        <img src="#" alt="Sign up Image" />
+      </div>
+      <div class="signup-right">
+        <form>
+          <label for="username">Username:</label> <br />
+          <input
+            class="signup-input"
+            type="text"
+            placeholder="Enter a username"
+            required
+          />
+          <br />
+          <label for="email">Enter Email:</label> <br />
+          <input
+            class="signup-input"
+            type="email"
+            placeholder="Enter a valid email"
+            required
+          />
+          <br />
+          <label for="password">Enter password:</label> <br />
+          <input
+            class="signup-input"
+            type="password"
+            placeholder="Enter a strong password"
+            required
+          />
+          <br />
+          <label for="conpassword">Re-Enter password:</label> <br />
+          <input
+            class="signup-input"
+            type="password"
+            placeholder="Re-Enter password"
+            required
+          />
+          <div class="checkbox">
+            <input type="checkbox" required />
+            <label for="checkbox"
+              >I have agreed to all terms & conditions.</label
+            >
+          </div>
+
+          <button class="btn btn-large" type="submit">Create account</button>
+        </form>
+      </div>
+    </div>
+    <footer>All copyright reserved to itBoyShohidul &copy; 2022</footer>
+  </body>
+</html>
